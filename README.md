@@ -30,6 +30,7 @@ Aspectos cumplidos de la actividad propuesta por el profesor:
 ### 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
 •	Dockerización de Moodle en AWS debido a un problema al momento de desplegar en el cual la instancia iniciaba correctamente y luego se detiene sin motivo aparente.
+• Al desplegar el reto 2 parte 1 a un cluster en EKR tuvimos problemas con el acceso al cluster desde los kubernetes (Evidencias en el video)
 
 
 ## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
@@ -45,7 +46,7 @@ Se utilizó Docker, con sus respectivos docker-compose para contenerizar correct
 
 ## IP o nombres de dominio en nube o en la máquina servidor.
 
-Para acceder a la página web: https://reto3.reto3.me/
+Para acceder a la página web: reto2moodle.hopto.org
 
 * **Nginx:** IP privada: 172.31.11.53
 
